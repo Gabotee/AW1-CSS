@@ -1,0 +1,42 @@
+/* reset */
+html,
+body,
+h1,
+h2,
+h5,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+/* modelo de caja alternativo */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    display: flex;
+    border: 1px solid #333;
+    justify-content: space-between;
+    padding: 15px;
+    height: 200px;
+}
+
+h1{
+    border: 1px solid #333;
+    display: flex;
+    align-items: center;
+}
+
+nav{
+    border: 1px solid #333;
+    display: flex;
+    /* flex-direction: column;  Poner en columna los Navs*/
+    align-items: end;
+    gap: 20px;
+}

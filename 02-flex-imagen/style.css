@@ -1,0 +1,38 @@
+/* reset */
+html,
+body,
+h1,
+h2,
+h5,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+/* modelo de caja alternativo */
+* {
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+article{
+    display: flex;
+}
+
+.imagen{
+    width: 50%;
+}
+
+.imagen img{
+    width: 100%;
+    object-fit: contain;
+    object-position: center;
+}
+
+.texto{
+    width: 50%;
+}
